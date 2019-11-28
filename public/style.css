@@ -1,0 +1,14 @@
+body {
+    background: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.container {
+    margin: 10%;
+}
+
+.btn {
+    margin: 10px;
+}

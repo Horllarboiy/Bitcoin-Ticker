@@ -1,0 +1,27 @@
+<%- include("./partials/header"); -%>
+
+    <form action="/" method="post" class="form-group">
+        <input type="text" class="form-control" placeholder="Enter amount" name="amount">
+
+        <select name="crypto" class="form-control">
+            <option value="BTC">Bitcoin</option>
+            <option value="ETH">Ethereum</option>
+            <option value="LTC">Litecoins</option>
+        </select>
+
+        <select name="fiat" class="form-control">
+            <option value="USD" name="USD">US Dollars</option>
+            <option value="GBP" name="GBP" >GB Pounds</option>
+            <option value="EUR" name ="EUR">EU Euros</option>
+        </select>
+
+        <button type="submit" name="button" class="btn btn-outline-dark btn-lg">check</button>
+
+    </form>
+       
+
+  </div>
+    
+
+
+  <%- include("./partials/footer"); -%>
